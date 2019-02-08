@@ -1,0 +1,20 @@
+<?php
+
+include ("db_connection.php");
+
+$query = "SELECT tema, opis
+	      FROM sastanak
+		  ORDER BY tema ASC";
+$result = mysql_query ($query);
+while($row = mysql_fetch_array($result))
+{
+echo $row["tema"].' '.$row["opis"].'</br>';
+
+}
+
+
+
+
+
+
+?>

@@ -1,0 +1,25 @@
+#korisnici 
+{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#paginacija 
+{
+	width: 100%;
+	height: 25px;
+	background-color: blue;
+	margin-top: -10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.link
+ {
+	text-decoration: none;
+	color: gray;
+	background-color: white;
+	margin-right: 15px;
+	padding: 2px;
+	border-radius: 5px;
+}
+
